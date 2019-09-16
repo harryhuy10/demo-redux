@@ -51,6 +51,7 @@ class App extends Component {
         <p>Result</p>
         <p>{this.props.simpleReducer}</p>
         <p>{this.props.changeReducer}</p>
+        <p>{JSON.stringify(this.props.getAPIReducer)}</p>
         
 
         <input type="text" value={this.state.value} name="name" onChange={this.handleSubmit} />
