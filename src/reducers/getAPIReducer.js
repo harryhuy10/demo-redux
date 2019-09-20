@@ -1,5 +1,5 @@
 
-export default (state = {"getAPIReducer":''}, action) => {
+export default (state = {}, action) => {
     switch (action.type) {
       case 'callingAPI':
         return {

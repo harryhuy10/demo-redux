@@ -4,6 +4,10 @@ export default (state = {"simpleReducer":"sth"}, action) => {
       return {
         result: action.payload
       }
+    case 'HARD_ACTION':
+      return {
+        result: action.payload
+      }
     default:
       return state
   }
