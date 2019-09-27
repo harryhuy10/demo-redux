@@ -60,6 +60,14 @@ class App extends Component {
       }
   });
   }
+  redirectTo() {
+    this.props.history.push({
+      pathname: '/clone',
+      state: {
+
+      }
+  });
+  }
   
   render() {
     
@@ -152,6 +160,7 @@ class App extends Component {
         <Button type="primary" onClick={() => this.changeInput(this.state.value)}>Test redux action</Button >
         <Button type="dash" onClick={this.handleClick.bind(this)}>Click Me</Button>
         <Button type="danger" onClick={this.hardAction.bind(this)}>Click Me R</Button>
+        <Button type="primary" onClick={this.redirectTo.bind(this)}>Click Me Go To Clone</Button>
       </div></Content>
       </Layout>
     </Content>
