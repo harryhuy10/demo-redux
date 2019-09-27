@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card{
     
     position:relative;
@@ -48,4 +49,56 @@
             }
         }
     }
+=======
+.card{
+    
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+    .card-img-top{
+        width:100%;
+        border-top-left-radius:calc(.25rem - 1px);
+        border-top-right-radius:calc(.25rem - 1px)
+    }
+    .card-body{
+        -ms-flex:1 1 auto;
+        flex:1 1 auto;
+        padding:1.25rem
+    }
+    .card-title{margin-bottom:.75rem}
+    .card-text:last-child{
+        margin-bottom:0
+    }
+    .list-group:first-child .list-group-item:first-child{border-top-left-radius:.25rem;border-top-right-radius:.25rem}
+    .card-link:hover{text-decoration:none}.card-link+.card-link{margin-left:1.25rem}
+}
+.zoo{
+    p{
+        color: pink;
+    }
+    margin-left:10%;
+    margin-right:10%;
+    .zoo-p{
+        margin-left:90%
+    }
+    .zoo-div-center{
+        margin-left:20%;
+        .zoo-div-content{
+            .zoo-p-center{
+                font-size:100px
+            }
+            h4{
+                color:red
+            }
+        }
+    }
+>>>>>>> 380f9c6c77cd8be47e233f1cf96a19f1139a92c6
 }
