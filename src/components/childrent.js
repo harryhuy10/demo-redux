@@ -15,7 +15,7 @@ class Childrent extends Component {
 const mapStateToProps = ({simpleReducer,changeReducer,getAPIReducer}) => ({
         simple: simpleReducer,
         change: changeReducer,
-        getAPIReducer: getAPIReducer,
+        getAPIReducer: getAPIReducer
   })
   const mapDispatchToProps = dispatch => ({
  
